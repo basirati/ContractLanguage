@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-applw4myfza63oym16ppq5zggixlk3i">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-5mgxduek28h3ywdzzsk4capaz4hgjm0" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" hash="9wy5xay4fxryhg7hl9tcowq0jfepue8" />
+  <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="-7bcbwd0eeanjmbse4qqe65jn9wesga4" />
+  <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="d6jzlioifjnzpqxxvnq59lak5hegf8a" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="59pruqdki98hfe9036cvsx1ivmwnl0e" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="4acxr3cgg4fc0d0hf9d1i7hakuh8eth" dependsOnNodes="true">
+    <dep root="1920587863154907248" />
+    <dep root="2374499500997638737" />
+    <dep root="2742180936283090448" />
+    <dep root="2944201642672955130" />
+    <dep root="3973305367619690267" />
+    <dep root="5172396859317272922" />
+    <dep root="6705784806340590826" />
+    <dep root="6705784806341188225" />
+    <dep root="6705784806341200370" />
+    <dep root="6705784806341201032" />
+    <dep root="7606008404080220633" />
+    <dep root="7606008404080288638" />
+    <dep root="8517328719846138812" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
+    <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="7606008404080220633" name="Preconditions" hash="bo2wib0e5s6vvmvht60dc920bh6gis2" />
+  <source id="7606008404080288638" name="ParameterRange" hash="3pwpn9ewydtd36m8yyscvsmdfnofx7c" />
+  <source id="6705784806340590826" name="FunctionContract" hash="aa9dwb2i0g6nsx6yt9yzjlnvkrewl4r" />
+  <source id="6705784806341188225" name="Dependency" hash="37pdvh7qivz9m3kgzd6grfo64sr1jo4" />
+  <source id="6705784806341200370" name="Postconditions" hash="-co2fimuy923nn1fma12vzd7vrhadbz9" />
+  <source id="6705784806341201032" name="ReturnValueRange" hash="-9hzn5wdn9b1utf75ziw3adpdgfz5lg" />
+  <source id="5172396859317272922" name="SideEffects" hash="-2b5tajsgeen2n90i4pheebh3m1pvfos" />
+  <source id="2742180936283090448" name="RangeExpression" hash="b7u3ihyj9dz7cdokhur7pldlx2d4yg2" />
+  <source id="8517328719846138812" name="ArgReference" hash="-ce7uxy2l1syzyoq75exoo4s60vn7zp8" />
+  <source id="3973305367619690267" name="VerifiableFunctionCall" hash="-8g790mi0qu0yznqycs2u7pib2royp1l" />
+  <source id="1920587863154907248" name="VerifiableFunctionCallCheckAttribute" hash="-4f56xngt7te4nw53uuq7xnsn4icyssp" />
+  <source id="2944201642672955130" name="ParameterSideEffect" hash="-93bcs2vi066v53c1w799mxxudjtcueu" />
+  <source id="2374499500997638737" name="CheckFunction" hash="3727lgl07el7uqzquhjfuucv06ki4df" />
+</dependencies>
+

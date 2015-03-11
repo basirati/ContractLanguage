@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="ArgReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.ArgReference_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="48" endPosition="0" unitName="NewLanguage.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="CheckFunction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.CheckFunction_BehaviorDescriptor" />
+  <unitInfo fileName="Dependency_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.Dependency_BehaviorDescriptor" />
+  <unitInfo fileName="FunctionContract_BehaviorDescriptor.java" startLine="21" startPosition="0" endLine="115" endPosition="0" unitName="NewLanguage.behavior.FunctionContract_BehaviorDescriptor" />
+  <unitInfo fileName="ParameterRange_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.ParameterRange_BehaviorDescriptor" />
+  <unitInfo fileName="ParameterSideEffect_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.ParameterSideEffect_BehaviorDescriptor" />
+  <unitInfo fileName="Postconditions_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.Postconditions_BehaviorDescriptor" />
+  <unitInfo fileName="Preconditions_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.Preconditions_BehaviorDescriptor" />
+  <unitInfo fileName="RangeExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.RangeExpression_BehaviorDescriptor" />
+  <unitInfo fileName="ReturnValueRange_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.ReturnValueRange_BehaviorDescriptor" />
+  <unitInfo fileName="SideEffects_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.SideEffects_BehaviorDescriptor" />
+  <unitInfo fileName="VerifiableFunctionCallCheckAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.VerifiableFunctionCallCheckAttribute_BehaviorDescriptor" />
+  <unitInfo fileName="VerifiableFunctionCall_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.VerifiableFunctionCall_BehaviorDescriptor" />
+  <root nodeRef="r:56ebf61c-1a15-47af-a4a5-86cc78fb64e5(NewLanguage.behavior)/6625881945441037860">
+    <nodeInfo nodeId="6625881945441747475" fileName="RangeExpression_Behavior.java" startLine="16" startPosition="136" endLine="17" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6625881945442056194" fileName="RangeExpression_Behavior.java" startLine="18" startPosition="163" endLine="19" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6625881945441749950" fileName="RangeExpression_Behavior.java" startLine="19" startPosition="29" endLine="20" endPosition="253" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6625881945442071335" fileName="RangeExpression_Behavior.java" startLine="21" startPosition="166" endLine="22" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6625881945442071341" fileName="RangeExpression_Behavior.java" startLine="22" startPosition="30" endLine="23" endPosition="255" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6625881945442073956" fileName="RangeExpression_Behavior.java" startLine="24" startPosition="159" endLine="25" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6625881945442073962" fileName="RangeExpression_Behavior.java" startLine="25" startPosition="32" endLine="26" endPosition="259" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6625881945442078027" fileName="RangeExpression_Behavior.java" startLine="27" startPosition="160" endLine="28" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6625881945442078033" fileName="RangeExpression_Behavior.java" startLine="28" startPosition="33" endLine="29" endPosition="261" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6625881945441700694" fileName="RangeExpression_Behavior.java" startLine="30" startPosition="5" endLine="31" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6625881945441037860" fileName="RangeExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6625881945441736950" fileName="RangeExpression_Behavior.java" startLine="15" startPosition="86" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6625881945441037860" fileName="RangeExpression_Behavior.java" startLine="15" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_transform_6625881945441698257#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6625881945441037862" fileName="RangeExpression_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="6625881945441736953" fileName="RangeExpression_Behavior.java" startLine="16" startPosition="136" endLine="17" endPosition="19" />
+    <scopeInfo nodeId="6625881945441037860" fileName="RangeExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="6625881945441037860" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6625881945441748606" fileName="RangeExpression_Behavior.java" startLine="18" startPosition="163" endLine="20" endPosition="253">
+      <varInfo nodeId="6625881945442056197" varName="eq" />
+    </scopeInfo>
+    <scopeInfo nodeId="6625881945441752133" fileName="RangeExpression_Behavior.java" startLine="21" startPosition="166" endLine="23" endPosition="255">
+      <varInfo nodeId="6625881945442071336" varName="neq" />
+    </scopeInfo>
+    <scopeInfo nodeId="6625881945441757696" fileName="RangeExpression_Behavior.java" startLine="24" startPosition="159" endLine="26" endPosition="259">
+      <varInfo nodeId="6625881945442073957" varName="orexp" />
+    </scopeInfo>
+    <scopeInfo nodeId="6625881945441763962" fileName="RangeExpression_Behavior.java" startLine="27" startPosition="160" endLine="29" endPosition="261">
+      <varInfo nodeId="6625881945442078028" varName="andexp" />
+    </scopeInfo>
+    <scopeInfo nodeId="6625881945441698260" fileName="RangeExpression_Behavior.java" startLine="15" startPosition="86" endLine="31" endPosition="138" />
+    <scopeInfo nodeId="6625881945441037860" fileName="RangeExpression_Behavior.java" startLine="15" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="6625881945441699514" varName="nex" />
+      <varInfo nodeId="6625881945441037860" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6625881945441037860" fileName="RangeExpression_Behavior.java" startLine="11" startPosition="0" endLine="34" endPosition="0" unitName="NewLanguage.behavior.RangeExpression_Behavior" />
+  </root>
+  <root nodeRef="r:56ebf61c-1a15-47af-a4a5-86cc78fb64e5(NewLanguage.behavior)/6705784806340869940">
+    <nodeInfo nodeId="2742180936282482458" fileName="FunctionContract_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2742180936282637035" fileName="FunctionContract_Behavior.java" startLine="18" startPosition="74" endLine="19" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2742180936282684634" fileName="FunctionContract_Behavior.java" startLine="21" startPosition="193" endLine="22" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2944201642671691888" fileName="FunctionContract_Behavior.java" startLine="22" startPosition="98" endLine="23" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2944201642671694138" fileName="FunctionContract_Behavior.java" startLine="23" startPosition="98" endLine="24" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2742180936283434247" fileName="FunctionContract_Behavior.java" startLine="24" startPosition="59" endLine="25" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2742180936282657781" fileName="FunctionContract_Behavior.java" startLine="25" startPosition="141" endLine="26" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2742180936282491444" fileName="FunctionContract_Behavior.java" startLine="31" startPosition="72" endLine="32" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3598327450488767080" fileName="FunctionContract_Behavior.java" startLine="34" startPosition="193" endLine="35" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3598327450488767243" fileName="FunctionContract_Behavior.java" startLine="35" startPosition="120" endLine="36" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3598327450488781274" fileName="FunctionContract_Behavior.java" startLine="36" startPosition="97" endLine="37" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3598327450488759506" fileName="FunctionContract_Behavior.java" startLine="37" startPosition="87" endLine="38" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3598327450488907509" fileName="FunctionContract_Behavior.java" startLine="39" startPosition="5" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6705784806340869940" fileName="FunctionContract_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2742180936282602853" fileName="FunctionContract_Behavior.java" startLine="17" startPosition="71" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2742180936282486538" fileName="FunctionContract_Behavior.java" startLine="30" startPosition="72" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3598327450488743707" fileName="FunctionContract_Behavior.java" startLine="33" startPosition="5" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2742180936282637507" fileName="FunctionContract_Behavior.java" startLine="20" startPosition="5" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6705784806340869940" fileName="FunctionContract_Behavior.java" startLine="17" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_addArgs_2742180936282602292#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6705784806340869940" fileName="FunctionContract_Behavior.java" startLine="30" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_makeVars_3598327450488743691#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="6705784806340869942" fileName="FunctionContract_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="74" />
+    <scopeInfo nodeId="2742180936282602854" fileName="FunctionContract_Behavior.java" startLine="18" startPosition="74" endLine="19" endPosition="13" />
+    <scopeInfo nodeId="2742180936282486541" fileName="FunctionContract_Behavior.java" startLine="31" startPosition="72" endLine="32" endPosition="13" />
+    <scopeInfo nodeId="6705784806340869940" fileName="FunctionContract_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6705784806340869940" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3598327450488743710" fileName="FunctionContract_Behavior.java" startLine="34" startPosition="193" endLine="38" endPosition="137">
+      <varInfo nodeId="3598327450488767083" varName="gvd" />
+    </scopeInfo>
+    <scopeInfo nodeId="2742180936282637513" fileName="FunctionContract_Behavior.java" startLine="21" startPosition="193" endLine="26" endPosition="157">
+      <varInfo nodeId="2944201642671691891" varName="argref" />
+      <varInfo nodeId="2742180936282684637" varName="prec" />
+    </scopeInfo>
+    <scopeInfo nodeId="3598327450488743707" fileName="FunctionContract_Behavior.java" startLine="33" startPosition="5" endLine="39" endPosition="5">
+      <varInfo nodeId="3598327450488743708" varName="arg" />
+    </scopeInfo>
+    <scopeInfo nodeId="2742180936282637507" fileName="FunctionContract_Behavior.java" startLine="20" startPosition="5" endLine="27" endPosition="5">
+      <varInfo nodeId="2742180936282637509" varName="arg" />
+    </scopeInfo>
+    <scopeInfo nodeId="2742180936282602295" fileName="FunctionContract_Behavior.java" startLine="17" startPosition="71" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="3598327450488743694" fileName="FunctionContract_Behavior.java" startLine="30" startPosition="72" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="6705784806340869940" fileName="FunctionContract_Behavior.java" startLine="17" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="6705784806340869940" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6705784806340869940" fileName="FunctionContract_Behavior.java" startLine="30" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="6705784806340869940" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6705784806340869940" fileName="FunctionContract_Behavior.java" startLine="12" startPosition="0" endLine="43" endPosition="0" unitName="NewLanguage.behavior.FunctionContract_Behavior" />
+  </root>
+</debugInfo>
+

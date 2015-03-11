@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="2ee5vgwm0qfsvlim50nb6lduwn8mz75">
+  <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" hash="e7fabo3btro5ngsvchawgrawztg46dn" />
+  <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="cwkpph96q1sg7p04q0czknn2b6ts0vd" />
+  <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="-e1z8uaorm9buuthvhfcvo471oxd0une" />
+  <dep model="r:fe9f9720-81c4-31c7-8290-8018ee2f18d4(ContractLanguage.__spreferences.PlatformTemplates)" hash="1or70whlmpjk4ctdvp8amywk3mb9htf" />
+  <common hash="-2cvw3lgi8d0xv591upyersp56fxtudb">
+    <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" />
+    <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+    <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" />
+    <file name="Code.c" />
+    <file name="Code.h" />
+    <file name="Declarations" />
+    <file name="FunctionContracts" />
+    <file name="Makefile" />
+    <file name="TypeSizeConfiguration (N.sandbox)" />
+  </common>
+  <source id="6705784806340594173" name="Code" hash="-7zp8ccqam0ugjcbnl70fb4xsz2yepze" />
+  <source id="6705784806341211848" name="FunctionContracts" hash="eitidsenqwekcavo6vxq16mowulegsl" />
+  <source id="3598327450487995120" name="Declarations" hash="1vpqsps754davj0j9cvlawd7rwqy3o3" />
+  <source id="1237146133190306945" name="BuildConfiguration (N.sandbox)" hash="-d17dj23dl4z3qvyffkkxn8n0ruo2ihh">
+    <dep model="r:fe9f9720-81c4-31c7-8290-8018ee2f18d4(ContractLanguage.__spreferences.PlatformTemplates)" />
+  </source>
+</dependencies>
+

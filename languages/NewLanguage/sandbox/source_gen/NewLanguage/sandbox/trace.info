@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:e6d22112-83cf-40b7-8480-62b0da416680(NewLanguage.sandbox)/6705784806340594173">
+    <nodeInfo nodeId="6705784806340810988" fileName="Code.c" startLine="10" startPosition="24" endLine="10" endPosition="26" conceptFqName="com.mbeddr.core.expressions.structure.NumberLiteral" />
+    <nodeInfo nodeId="2944201642672023731" fileName="Code.c" startLine="14" startPosition="2" endLine="14" endPosition="24" conceptFqName="com.mbeddr.core.statements.structure.LocalVariableDeclaration" />
+    <nodeInfo nodeId="6705784806340811662" fileName="Code.c" startLine="14" startPosition="17" endLine="14" endPosition="23" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="2944201642672030385" fileName="Code.c" startLine="15" startPosition="2" endLine="15" endPosition="32" conceptFqName="com.mbeddr.core.statements.structure.LocalVariableDeclaration" />
+    <nodeInfo nodeId="2944201642672038505" fileName="Code.c" startLine="15" startPosition="21" endLine="15" endPosition="31" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="6625881945440090139" fileName="Code.c" startLine="16" startPosition="2" endLine="16" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="6625881945440092555" fileName="Code.c" startLine="17" startPosition="8" endLine="17" endPosition="22" conceptFqName="com.mbeddr.core.statements.structure.ForVarDecl" propertyString="i" />
+    <nodeInfo nodeId="6625881945440094503" fileName="Code.c" startLine="17" startPosition="20" endLine="17" endPosition="21" conceptFqName="com.mbeddr.core.expressions.structure.NumberLiteral" />
+    <nodeInfo nodeId="6625881945440095335" fileName="Code.c" startLine="17" startPosition="23" endLine="17" endPosition="24" conceptFqName="com.mbeddr.core.statements.structure.LocalVarRef" />
+    <nodeInfo nodeId="6625881945440096503" fileName="Code.c" startLine="17" startPosition="23" endLine="17" endPosition="29" conceptFqName="com.mbeddr.core.expressions.structure.LessExpression" />
+    <nodeInfo nodeId="6625881945440097924" fileName="Code.c" startLine="17" startPosition="27" endLine="17" endPosition="29" conceptFqName="com.mbeddr.core.expressions.structure.NumberLiteral" />
+    <nodeInfo nodeId="6625881945440099456" fileName="Code.c" startLine="17" startPosition="31" endLine="17" endPosition="32" conceptFqName="com.mbeddr.core.statements.structure.LocalVarRef" />
+    <nodeInfo nodeId="6625881945440100225" fileName="Code.c" startLine="17" startPosition="31" endLine="17" endPosition="34" conceptFqName="com.mbeddr.core.expressions.structure.PostIncrementExpression" />
+    <nodeInfo nodeId="6625881945440102528" fileName="Code.c" startLine="19" startPosition="4" endLine="19" endPosition="10" conceptFqName="com.mbeddr.core.modules.structure.GlobalVarRef" />
+    <nodeInfo nodeId="6625881945440103434" fileName="Code.c" startLine="19" startPosition="4" endLine="19" endPosition="21" conceptFqName="com.mbeddr.core.expressions.structure.AssignmentExpr" />
+    <nodeInfo nodeId="6625881945440102529" fileName="Code.c" startLine="19" startPosition="4" endLine="19" endPosition="22" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6625881945440107051" fileName="Code.c" startLine="19" startPosition="13" endLine="19" endPosition="19" conceptFqName="com.mbeddr.core.modules.structure.GlobalVarRef" />
+    <nodeInfo nodeId="6625881945440110668" fileName="Code.c" startLine="19" startPosition="13" endLine="19" endPosition="21" conceptFqName="com.mbeddr.core.expressions.structure.PostIncrementExpression" />
+    <nodeInfo nodeId="5219706673752021464" fileName="Code.c" startLine="21" startPosition="2" endLine="21" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="2374499500997885223" fileName="Code.c" startLine="22" startPosition="2" endLine="22" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="2374499500997888695" fileName="Code.c" startLine="23" startPosition="2" endLine="23" endPosition="19" conceptFqName="com.mbeddr.core.modules.structure.FunctionCall" />
+    <nodeInfo nodeId="2374499500997888697" fileName="Code.c" startLine="23" startPosition="2" endLine="23" endPosition="20" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2374499500997889715" fileName="Code.c" startLine="23" startPosition="8" endLine="23" endPosition="12" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="2374499500997891912" fileName="Code.c" startLine="23" startPosition="14" endLine="23" endPosition="18" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="2608412822998074757" fileName="Code.c" startLine="27" startPosition="2" endLine="27" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="2944201642672058153" fileName="Code.c" startLine="28" startPosition="2" endLine="28" endPosition="45" conceptFqName="com.mbeddr.core.statements.structure.ArbitraryTextExpression" />
+    <nodeInfo nodeId="2944201642672058153" fileName="Code.c" startLine="28" startPosition="2" endLine="28" endPosition="46" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2944201642672059779" fileName="Code.c" startLine="28" startPosition="9" endLine="28" endPosition="19" conceptFqName="com.mbeddr.core.statements.structure.LocalVarRef" />
+    <nodeInfo nodeId="2944201642672061737" fileName="Code.c" startLine="28" startPosition="9" endLine="28" endPosition="24" conceptFqName="com.mbeddr.core.expressions.structure.NotEqualsExpression" />
+    <nodeInfo nodeId="2944201642672066031" fileName="Code.c" startLine="28" startPosition="9" endLine="28" endPosition="44" conceptFqName="com.mbeddr.core.expressions.structure.OrExpression" />
+    <nodeInfo nodeId="2944201642672063724" fileName="Code.c" startLine="28" startPosition="23" endLine="28" endPosition="24" conceptFqName="com.mbeddr.core.pointers.structure.NullExpression" />
+    <nodeInfo nodeId="2944201642672068338" fileName="Code.c" startLine="28" startPosition="28" endLine="28" endPosition="38" conceptFqName="com.mbeddr.core.statements.structure.LocalVarRef" />
+    <nodeInfo nodeId="2944201642672070294" fileName="Code.c" startLine="28" startPosition="28" endLine="28" endPosition="44" conceptFqName="com.mbeddr.core.expressions.structure.NotEqualsExpression" />
+    <nodeInfo nodeId="2944201642672072640" fileName="Code.c" startLine="28" startPosition="42" endLine="28" endPosition="44" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="2944201642671958909" fileName="Code.c" startLine="29" startPosition="2" endLine="29" endPosition="40" conceptFqName="com.mbeddr.core.statements.structure.ArbitraryTextExpression" />
+    <nodeInfo nodeId="2944201642671958909" fileName="Code.c" startLine="29" startPosition="2" endLine="29" endPosition="41" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2944201642672048310" fileName="Code.c" startLine="29" startPosition="9" endLine="29" endPosition="15" conceptFqName="com.mbeddr.core.statements.structure.LocalVarRef" />
+    <nodeInfo nodeId="2944201642671983169" fileName="Code.c" startLine="29" startPosition="9" endLine="29" endPosition="22" conceptFqName="com.mbeddr.core.expressions.structure.EqualsExpression" />
+    <nodeInfo nodeId="2944201642671987059" fileName="Code.c" startLine="29" startPosition="9" endLine="29" endPosition="39" conceptFqName="com.mbeddr.core.expressions.structure.OrExpression" />
+    <nodeInfo nodeId="2944201642671984548" fileName="Code.c" startLine="29" startPosition="19" endLine="29" endPosition="22" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="2944201642672046377" fileName="Code.c" startLine="29" startPosition="26" endLine="29" endPosition="32" conceptFqName="com.mbeddr.core.statements.structure.LocalVarRef" />
+    <nodeInfo nodeId="2944201642671989359" fileName="Code.c" startLine="29" startPosition="26" endLine="29" endPosition="39" conceptFqName="com.mbeddr.core.expressions.structure.EqualsExpression" />
+    <nodeInfo nodeId="2944201642671991047" fileName="Code.c" startLine="29" startPosition="36" endLine="29" endPosition="39" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="2944201642672079118" fileName="Code.c" startLine="30" startPosition="2" endLine="30" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="1920587863154794096" fileName="Code.c" startLine="31" startPosition="2" endLine="31" endPosition="22" conceptFqName="com.mbeddr.core.modules.structure.FunctionCall" />
+    <nodeInfo nodeId="1920587863154794098" fileName="Code.c" startLine="31" startPosition="2" endLine="31" endPosition="23" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1920587863154794894" fileName="Code.c" startLine="31" startPosition="9" endLine="31" endPosition="13" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="1920587863154796673" fileName="Code.c" startLine="31" startPosition="15" endLine="31" endPosition="21" conceptFqName="com.mbeddr.core.modules.structure.GlobalVarRef" />
+    <nodeInfo nodeId="1920587863154808404" fileName="Code.c" startLine="32" startPosition="2" endLine="32" endPosition="26" conceptFqName="com.mbeddr.core.modules.structure.FunctionCall" />
+    <nodeInfo nodeId="1920587863154808406" fileName="Code.c" startLine="32" startPosition="2" endLine="32" endPosition="27" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1920587863154809338" fileName="Code.c" startLine="32" startPosition="9" endLine="32" endPosition="13" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="1920587863154811556" fileName="Code.c" startLine="32" startPosition="15" endLine="32" endPosition="25" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="1237146133190365858" fileName="Code.c" startLine="33" startPosition="2" endLine="33" endPosition="11" conceptFqName="com.mbeddr.core.modules.structure.ReturnStatement" />
+    <nodeInfo nodeId="1237146133190365859" fileName="Code.c" startLine="33" startPosition="9" endLine="33" endPosition="10" conceptFqName="com.mbeddr.core.expressions.structure.NumberLiteral" />
+    <nodeInfo nodeId="1920587863154780373" fileName="Code.c" startLine="38" startPosition="2" endLine="38" endPosition="8" conceptFqName="com.mbeddr.core.modules.structure.GlobalVarRef" />
+    <nodeInfo nodeId="1920587863154781334" fileName="Code.c" startLine="38" startPosition="2" endLine="38" endPosition="21" conceptFqName="com.mbeddr.core.expressions.structure.AssignmentExpr" />
+    <nodeInfo nodeId="1920587863154780374" fileName="Code.c" startLine="38" startPosition="2" endLine="38" endPosition="22" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1920587863154781997" fileName="Code.c" startLine="38" startPosition="11" endLine="38" endPosition="17" conceptFqName="com.mbeddr.core.modules.structure.GlobalVarRef" />
+    <nodeInfo nodeId="1920587863154782850" fileName="Code.c" startLine="38" startPosition="11" endLine="38" endPosition="21" conceptFqName="com.mbeddr.core.expressions.structure.PlusExpression" />
+    <nodeInfo nodeId="1920587863154801680" fileName="Code.c" startLine="38" startPosition="20" endLine="38" endPosition="21" conceptFqName="com.mbeddr.core.modules.structure.ArgumentRef" />
+    <nodeInfo nodeId="6705784806340594173" fileName="Code.c" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="NewLanguage.sandbox.myfunction" />
+    <nodeInfo nodeId="6705784806340808706" fileName="Code.c" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.GlobalVariableDeclaration" />
+    <nodeInfo nodeId="6625881945440091744" fileName="Code.c" startLine="18" startPosition="2" endLine="20" endPosition="3" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
+    <nodeInfo nodeId="2374499501000973314" fileName="Code.c" startLine="24" startPosition="2" endLine="26" endPosition="0" conceptFqName="NewLanguage.structure.CheckFunction" />
+    <nodeInfo nodeId="6705784806340821111" fileName="Code.c" startLine="37" startPosition="0" endLine="39" endPosition="1" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
+    <nodeInfo nodeId="6625881945440091742" fileName="Code.c" startLine="17" startPosition="2" endLine="20" endPosition="3" conceptFqName="com.mbeddr.core.statements.structure.ForStatement" />
+    <nodeInfo nodeId="6705784806340821109" fileName="Code.c" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="Code_myfunction" />
+    <nodeInfo nodeId="1237146133190365850" fileName="Code.c" startLine="13" startPosition="0" endLine="34" endPosition="1" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
+    <nodeInfo nodeId="1237146133190365848" fileName="Code.c" startLine="12" startPosition="0" endLine="35" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main" />
+    <nodeInfo nodeId="6705784806340594173" fileName="Code.h" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="NewLanguage.sandbox.main" />
+    <unitInfo nodeId="6705784806340594173" fileName="Code.c" startLine="1" startPosition="0" endLine="41" endPosition="0" unitName="NewLanguage.sandbox.Code" />
+  </root>
+  <root nodeRef="r:e6d22112-83cf-40b7-8480-62b0da416680(NewLanguage.sandbox)/6705784806341211848">
+    <nodeInfo nodeId="2374499501001666599" fileName="Code.c" startLine="24" startPosition="9" endLine="24" endPosition="12" conceptFqName="NewLanguage.structure.ArgReference" />
+    <nodeInfo nodeId="2374499501001666602" fileName="Code.c" startLine="24" startPosition="9" endLine="24" endPosition="17" conceptFqName="com.mbeddr.core.expressions.structure.NotEqualsExpression" />
+    <nodeInfo nodeId="2374499501001666623" fileName="Code.c" startLine="24" startPosition="16" endLine="24" endPosition="17" conceptFqName="com.mbeddr.core.pointers.structure.NullExpression" />
+    <nodeInfo nodeId="8721285525864838524" fileName="Code.c" startLine="25" startPosition="7" endLine="25" endPosition="10" conceptFqName="NewLanguage.structure.ArgReference" />
+    <nodeInfo nodeId="8721285525864838522" fileName="Code.c" startLine="25" startPosition="7" endLine="25" endPosition="17" conceptFqName="com.mbeddr.core.expressions.structure.EqualsExpression" />
+    <nodeInfo nodeId="8721285525864838604" fileName="Code.c" startLine="25" startPosition="7" endLine="25" endPosition="31" conceptFqName="com.mbeddr.core.expressions.structure.OrExpression" />
+    <nodeInfo nodeId="8721285525864838543" fileName="Code.c" startLine="25" startPosition="14" endLine="25" endPosition="17" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+    <nodeInfo nodeId="8721285525864838651" fileName="Code.c" startLine="25" startPosition="21" endLine="25" endPosition="24" conceptFqName="NewLanguage.structure.ArgReference" />
+    <nodeInfo nodeId="8721285525864838690" fileName="Code.c" startLine="25" startPosition="21" endLine="25" endPosition="31" conceptFqName="com.mbeddr.core.expressions.structure.EqualsExpression" />
+    <nodeInfo nodeId="8721285525864838772" fileName="Code.c" startLine="25" startPosition="28" endLine="25" endPosition="31" conceptFqName="com.mbeddr.core.pointers.structure.StringLiteral" />
+  </root>
+</debugInfo>
+
