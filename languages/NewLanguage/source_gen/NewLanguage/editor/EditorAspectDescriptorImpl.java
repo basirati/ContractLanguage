@@ -30,13 +30,11 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 6:
         return Collections.<ConceptEditor>singletonList(new RangeExpression_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new ReturnValueRange_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReturnValue_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new SideEffects_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReturnValueRange_Editor());
       case 9:
-        return Collections.<ConceptEditor>singletonList(new VerifiableFunctionCall_Editor());
-      case 10:
-        return Collections.<ConceptEditor>singletonList(new VerifiableFunctionCallCheckAttribute_Editor());
+        return Collections.<ConceptEditor>singletonList(new SideEffects_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -48,5 +46,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.CheckFunction", "NewLanguage.structure.Dependency", "NewLanguage.structure.FunctionContract", "NewLanguage.structure.ParameterRange", "NewLanguage.structure.ParameterSideEffect", "NewLanguage.structure.RangeExpression", "NewLanguage.structure.ReturnValueRange", "NewLanguage.structure.SideEffects", "NewLanguage.structure.VerifiableFunctionCall", "NewLanguage.structure.VerifiableFunctionCallCheckAttribute"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.CheckFunction", "NewLanguage.structure.Dependency", "NewLanguage.structure.FunctionContract", "NewLanguage.structure.ParameterRange", "NewLanguage.structure.ParameterSideEffect", "NewLanguage.structure.RangeExpression", "NewLanguage.structure.ReturnValue", "NewLanguage.structure.ReturnValueRange", "NewLanguage.structure.SideEffects"};
 }

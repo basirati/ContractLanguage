@@ -17,9 +17,8 @@
     <classNode dependClassName="NewLanguage.behavior.Preconditions_BehaviorDescriptor" />
     <classNode dependClassName="NewLanguage.behavior.RangeExpression_BehaviorDescriptor" />
     <classNode dependClassName="NewLanguage.behavior.ReturnValueRange_BehaviorDescriptor" />
+    <classNode dependClassName="NewLanguage.behavior.ReturnValue_BehaviorDescriptor" />
     <classNode dependClassName="NewLanguage.behavior.SideEffects_BehaviorDescriptor" />
-    <classNode dependClassName="NewLanguage.behavior.VerifiableFunctionCallCheckAttribute_BehaviorDescriptor" />
-    <classNode dependClassName="NewLanguage.behavior.VerifiableFunctionCall_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
@@ -113,22 +112,24 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="NewLanguage.behavior.ReturnValue_Behavior" file="ReturnValue_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="NewLanguage.behavior.ReturnValue_BehaviorDescriptor" file="ReturnValue_BehaviorDescriptor.java">
+    <classNode dependClassName="com.mbeddr.core.expressions.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="NewLanguage.behavior.SideEffects_BehaviorDescriptor" file="SideEffects_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="NewLanguage.behavior.VerifiableFunctionCallCheckAttribute_BehaviorDescriptor" file="VerifiableFunctionCallCheckAttribute_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.NodeAttribute_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="NewLanguage.behavior.VerifiableFunctionCall_BehaviorDescriptor" file="VerifiableFunctionCall_BehaviorDescriptor.java">
-    <classNode dependClassName="com.mbeddr.core.modules.behavior.FunctionCall_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>

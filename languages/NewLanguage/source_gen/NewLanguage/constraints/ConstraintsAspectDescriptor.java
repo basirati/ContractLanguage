@@ -16,11 +16,13 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new ArgReference_Constraints();
       case 1:
         return new ParameterRange_Constraints();
+      case 2:
+        return new ReturnValue_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.ParameterRange"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.ParameterRange", "NewLanguage.structure.ReturnValue"};
 }

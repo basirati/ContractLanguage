@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="NewLanguage.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="NewLanguage.constraints.ConstraintsAspectDescriptor" />
   <root nodeRef="r:35009ee1-40f3-4492-87c9-5ed84e5b7c7a(NewLanguage.constraints)/3225150610182391994">
     <nodeInfo nodeId="3225150610182391994" fileName="ParameterRange_Constraints.java" startLine="21" startPosition="39" endLine="22" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="3225150610182391994" fileName="ParameterRange_Constraints.java" startLine="26" startPosition="83" endLine="27" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -37,6 +37,13 @@
     <unitInfo nodeId="3225150610182391994" fileName="ParameterRange_Constraints.java" startLine="37" startPosition="19" endLine="47" endPosition="9" unitName="NewLanguage.constraints.ParameterRange_Constraints$2" />
     <unitInfo nodeId="3225150610182391994" fileName="ParameterRange_Constraints.java" startLine="28" startPosition="30" endLine="49" endPosition="5" unitName="NewLanguage.constraints.ParameterRange_Constraints$1" />
     <unitInfo nodeId="3225150610182391994" fileName="ParameterRange_Constraints.java" startLine="20" startPosition="0" endLine="55" endPosition="0" unitName="NewLanguage.constraints.ParameterRange_Constraints" />
+  </root>
+  <root nodeRef="r:35009ee1-40f3-4492-87c9-5ed84e5b7c7a(NewLanguage.constraints)/3452445183878459627">
+    <nodeInfo nodeId="3452445183878459627" fileName="ReturnValue_Constraints.java" startLine="8" startPosition="36" endLine="9" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3452445183878459627" fileName="ReturnValue_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ReturnValue_Constraints#()V" />
+    <scopeInfo nodeId="3452445183878459627" fileName="ReturnValue_Constraints.java" startLine="8" startPosition="36" endLine="9" endPosition="47" />
+    <scopeInfo nodeId="3452445183878459627" fileName="ReturnValue_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />
+    <unitInfo nodeId="3452445183878459627" fileName="ReturnValue_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="NewLanguage.constraints.ReturnValue_Constraints" />
   </root>
   <root nodeRef="r:35009ee1-40f3-4492-87c9-5ed84e5b7c7a(NewLanguage.constraints)/8517328719846197755">
     <nodeInfo nodeId="8517328719846197755" fileName="ArgReference_Constraints.java" startLine="21" startPosition="37" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

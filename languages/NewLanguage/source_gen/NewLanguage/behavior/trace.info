@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="ArgReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.ArgReference_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="48" endPosition="0" unitName="NewLanguage.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="NewLanguage.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CheckFunction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.CheckFunction_BehaviorDescriptor" />
   <unitInfo fileName="Dependency_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.Dependency_BehaviorDescriptor" />
   <unitInfo fileName="FunctionContract_BehaviorDescriptor.java" startLine="21" startPosition="0" endLine="115" endPosition="0" unitName="NewLanguage.behavior.FunctionContract_BehaviorDescriptor" />
@@ -11,9 +11,17 @@
   <unitInfo fileName="Preconditions_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.Preconditions_BehaviorDescriptor" />
   <unitInfo fileName="RangeExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.RangeExpression_BehaviorDescriptor" />
   <unitInfo fileName="ReturnValueRange_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.ReturnValueRange_BehaviorDescriptor" />
+  <unitInfo fileName="ReturnValue_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="NewLanguage.behavior.ReturnValue_BehaviorDescriptor" />
   <unitInfo fileName="SideEffects_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.SideEffects_BehaviorDescriptor" />
-  <unitInfo fileName="VerifiableFunctionCallCheckAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.VerifiableFunctionCallCheckAttribute_BehaviorDescriptor" />
-  <unitInfo fileName="VerifiableFunctionCall_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NewLanguage.behavior.VerifiableFunctionCall_BehaviorDescriptor" />
+  <root nodeRef="r:56ebf61c-1a15-47af-a4a5-86cc78fb64e5(NewLanguage.behavior)/3452445183878535557">
+    <nodeInfo nodeId="3452445183878535612" fileName="ReturnValue_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3452445183878535557" fileName="ReturnValue_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="3452445183878535559" fileName="ReturnValue_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="56" />
+    <scopeInfo nodeId="3452445183878535557" fileName="ReturnValue_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="3452445183878535557" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="3452445183878535557" fileName="ReturnValue_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="NewLanguage.behavior.ReturnValue_Behavior" />
+  </root>
   <root nodeRef="r:56ebf61c-1a15-47af-a4a5-86cc78fb64e5(NewLanguage.behavior)/6625881945441037860">
     <nodeInfo nodeId="6625881945441747475" fileName="RangeExpression_Behavior.java" startLine="16" startPosition="136" endLine="17" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6625881945442056194" fileName="RangeExpression_Behavior.java" startLine="18" startPosition="163" endLine="19" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

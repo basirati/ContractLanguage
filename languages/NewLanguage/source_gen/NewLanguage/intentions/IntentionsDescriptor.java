@@ -14,6 +14,5 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
 
   public void init() {
     IntentionsManager.getInstance().registerIntentionFactory(new ConnectToFunction_Intention());
-    IntentionsManager.getInstance().registerIntentionFactory(new toggleCheckByContract_Intention());
   }
 }

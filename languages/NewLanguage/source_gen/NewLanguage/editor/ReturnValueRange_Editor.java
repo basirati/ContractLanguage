@@ -24,13 +24,11 @@ public class ReturnValueRange_Editor extends DefaultNodeEditor {
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_umrooo_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_umrooo_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_umrooo_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_umrooo_d0(editorContext, node));
     return editorCell;
   }
 
   private EditorCell createConstant_umrooo_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "member of");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "ReturnValueCheck: ");
     editorCell.setCellId("Constant_umrooo_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -38,39 +36,12 @@ public class ReturnValueRange_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNode_umrooo_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("included");
-    provider.setNoTargetText("<no included>");
+    provider.setRole("ConditionExp");
+    provider.setNoTargetText("<no ConditionExp>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     if (editorCell.getRole() == null) {
-      editorCell.setRole("included");
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createConstant_umrooo_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, " not member of");
-    editorCell.setCellId("Constant_umrooo_c0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createRefNode_umrooo_d0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("excluded");
-    provider.setNoTargetText("<no excluded>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    if (editorCell.getRole() == null) {
-      editorCell.setRole("excluded");
+      editorCell.setRole("ConditionExp");
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

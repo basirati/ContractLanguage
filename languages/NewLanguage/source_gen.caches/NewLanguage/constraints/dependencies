@@ -22,6 +22,7 @@
   <dependency className="NewLanguage.constraints.ConstraintsAspectDescriptor" file="ConstraintsAspectDescriptor.java">
     <classNode dependClassName="NewLanguage.constraints.ArgReference_Constraints" />
     <classNode dependClassName="NewLanguage.constraints.ParameterRange_Constraints" />
+    <classNode dependClassName="NewLanguage.constraints.ReturnValue_Constraints" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsDescriptor" />
@@ -45,6 +46,9 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="NewLanguage.constraints.ReturnValue_Constraints" file="ReturnValue_Constraints.java">
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
 </dependenciesRoot>

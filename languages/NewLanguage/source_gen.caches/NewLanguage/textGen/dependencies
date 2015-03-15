@@ -13,31 +13,8 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>
-  <dependency className="NewLanguage.textGen.CheckFunction_TextGen" file="CheckFunction_TextGen.java">
-    <classNode dependClassName="NewLanguage.textGen.GeneratorAssistant" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.Throwable" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
-    <classNode dependClassName="jetbrains.mps.textGen.TraceInfoGenerationUtil" />
-    <classNode dependClassName="org.apache.log4j.Level" />
-    <classNode dependClassName="org.apache.log4j.LogManager" />
-    <classNode dependClassName="org.apache.log4j.Logger" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
-  </dependency>
-  <dependency className="NewLanguage.textGen.GeneratorAssistant" file="GeneratorAssistant.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-  </dependency>
-  <dependency className="NewLanguage.textGen.ParameterRange_TextGen" file="ParameterRange_TextGen.java">
+  <dependency className="NewLanguage.textGen.Preconditions_TextGen" file="Preconditions_TextGen.java">
+    <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />

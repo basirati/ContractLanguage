@@ -126,5 +126,11 @@
     </dependencies>
     <rename id="ilnp.8517328719846146229" type="REFERENCE" from="arg" to="Arg" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ilnp" modelUID="r:bcf4a785-1586-4082-a483-f17b53599959(NewLanguage.structure)" version="20" />
+    </dependencies>
+    <rename id="ilnp.2944201642672888110" type="CHILD" from="included" to="ConditionExp" />
+  </StructureModification>
 </history>
 

@@ -22,26 +22,24 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Dependency_BehaviorDescriptor();
       case 6:
         return new Postconditions_BehaviorDescriptor();
-      case 9:
-        return new ReturnValueRange_BehaviorDescriptor();
       case 10:
+        return new ReturnValueRange_BehaviorDescriptor();
+      case 11:
         return new SideEffects_BehaviorDescriptor();
       case 8:
         return new RangeExpression_BehaviorDescriptor();
       case 0:
         return new ArgReference_BehaviorDescriptor();
-      case 11:
-        return new VerifiableFunctionCall_BehaviorDescriptor();
-      case 12:
-        return new VerifiableFunctionCallCheckAttribute_BehaviorDescriptor();
       case 5:
         return new ParameterSideEffect_BehaviorDescriptor();
       case 1:
         return new CheckFunction_BehaviorDescriptor();
+      case 9:
+        return new ReturnValue_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.CheckFunction", "NewLanguage.structure.Dependency", "NewLanguage.structure.FunctionContract", "NewLanguage.structure.ParameterRange", "NewLanguage.structure.ParameterSideEffect", "NewLanguage.structure.Postconditions", "NewLanguage.structure.Preconditions", "NewLanguage.structure.RangeExpression", "NewLanguage.structure.ReturnValueRange", "NewLanguage.structure.SideEffects", "NewLanguage.structure.VerifiableFunctionCall", "NewLanguage.structure.VerifiableFunctionCallCheckAttribute"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.CheckFunction", "NewLanguage.structure.Dependency", "NewLanguage.structure.FunctionContract", "NewLanguage.structure.ParameterRange", "NewLanguage.structure.ParameterSideEffect", "NewLanguage.structure.Postconditions", "NewLanguage.structure.Preconditions", "NewLanguage.structure.RangeExpression", "NewLanguage.structure.ReturnValue", "NewLanguage.structure.ReturnValueRange", "NewLanguage.structure.SideEffects"};
 }

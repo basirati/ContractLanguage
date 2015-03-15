@@ -22,7 +22,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 3:
         return new ConceptDescriptorBuilder("NewLanguage.structure.FunctionContract").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "com.mbeddr.core.modules.structure.IModuleContent", "com.mbeddr.core.modules.structure.IExternable", "jetbrains.mps.lang.traceable.structure.TraceableConcept").children(new String[]{"preconditions", "function", "postconditions"}, new boolean[]{false, false, false}).create();
       case 4:
-        return new ConceptDescriptorBuilder("NewLanguage.structure.ParameterRange").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("Arg").children(new String[]{"ConditionExp"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("NewLanguage.structure.ParameterRange").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("Arg").children(new String[]{"ConditionExp", "value"}, new boolean[]{false, false}).create();
       case 5:
         return new ConceptDescriptorBuilder("NewLanguage.structure.ParameterSideEffect").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"parameter", "OldValue", "NewValue"}, new boolean[]{false, false, false}).create();
       case 6:
@@ -32,17 +32,15 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 8:
         return new ConceptDescriptorBuilder("NewLanguage.structure.RangeExpression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"expression"}, new boolean[]{false}).create();
       case 9:
-        return new ConceptDescriptorBuilder("NewLanguage.structure.ReturnValueRange").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"included", "excluded"}, new boolean[]{false, false}).create();
+        return new ConceptDescriptorBuilder("NewLanguage.structure.ReturnValue").super_("com.mbeddr.core.expressions.structure.Expression").parents("com.mbeddr.core.expressions.structure.Expression", "jetbrains.mps.lang.core.structure.INamedConcept").create();
       case 10:
-        return new ConceptDescriptorBuilder("NewLanguage.structure.SideEffects").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"parametersideeffect"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("NewLanguage.structure.ReturnValueRange").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"ConditionExp", "value"}, new boolean[]{false, false}).create();
       case 11:
-        return new ConceptDescriptorBuilder("NewLanguage.structure.VerifiableFunctionCall").super_("com.mbeddr.core.modules.structure.FunctionCall").parents("com.mbeddr.core.modules.structure.FunctionCall").create();
-      case 12:
-        return new ConceptDescriptorBuilder("NewLanguage.structure.VerifiableFunctionCallCheckAttribute").super_("jetbrains.mps.lang.core.structure.NodeAttribute").parents("jetbrains.mps.lang.core.structure.NodeAttribute").references("fcontract", "fcall").create();
+        return new ConceptDescriptorBuilder("NewLanguage.structure.SideEffects").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"parametersideeffect"}, new boolean[]{true}).create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.CheckFunction", "NewLanguage.structure.Dependency", "NewLanguage.structure.FunctionContract", "NewLanguage.structure.ParameterRange", "NewLanguage.structure.ParameterSideEffect", "NewLanguage.structure.Postconditions", "NewLanguage.structure.Preconditions", "NewLanguage.structure.RangeExpression", "NewLanguage.structure.ReturnValueRange", "NewLanguage.structure.SideEffects", "NewLanguage.structure.VerifiableFunctionCall", "NewLanguage.structure.VerifiableFunctionCallCheckAttribute"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"NewLanguage.structure.ArgReference", "NewLanguage.structure.CheckFunction", "NewLanguage.structure.Dependency", "NewLanguage.structure.FunctionContract", "NewLanguage.structure.ParameterRange", "NewLanguage.structure.ParameterSideEffect", "NewLanguage.structure.Postconditions", "NewLanguage.structure.Preconditions", "NewLanguage.structure.RangeExpression", "NewLanguage.structure.ReturnValue", "NewLanguage.structure.ReturnValueRange", "NewLanguage.structure.SideEffects"};
 }

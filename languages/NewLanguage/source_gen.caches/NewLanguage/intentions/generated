@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-eq062o8ddk23y084wv2vs9rctwjyl7o">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+<dependencies version="2" modelHash="bcorckeb6x3xf6jfdmgrxt1js7b55e3">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
   <dep model="r:00000000-0000-4000-0000-011c89590354(jetbrains.mps.lang.intentions.generator.baseLanguage.template.main@generator)" hash="-5zht81o2cl3uwfxeued3uote7i72b3p" />
-  <dep model="r:56ebf61c-1a15-47af-a4a5-86cc78fb64e5(NewLanguage.behavior)" hash="6ban500gy1313hrrtkpyvqmwniancj" />
+  <dep model="r:56ebf61c-1a15-47af-a4a5-86cc78fb64e5(NewLanguage.behavior)" hash="d4cg3ipxni36qkngh0j2jzkos35jvv" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
-  <dep model="r:bcf4a785-1586-4082-a483-f17b53599959(NewLanguage.structure)" hash="-applw4myfza63oym16ppq5zggixlk3i" />
+  <dep model="r:bcf4a785-1586-4082-a483-f17b53599959(NewLanguage.structure)" hash="-6wphrnibyvbca8cl0gzr26oirgj9dix" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
-  <common hash="3l09y2j3vgqo0ydniqhilleb4rcjr71" dependsOnNodes="true">
-    <dep root="1920587863155177197" />
+  <common hash="-bpwn0mm5kb0e32l5pozlgwv0lqk31hn" dependsOnNodes="true">
     <dep root="3598327450488808443" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
@@ -25,13 +23,6 @@
     <dep model="r:56ebf61c-1a15-47af-a4a5-86cc78fb64e5(NewLanguage.behavior)" />
     <dep model="r:bcf4a785-1586-4082-a483-f17b53599959(NewLanguage.structure)" />
     <file name="ConnectToFunction_Intention.java" />
-  </source>
-  <source id="1920587863155177197" name="toggleCheckByContract" hash="emu3yuensujlr369ttdkhrrqwbqzmwq">
-    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590354(jetbrains.mps.lang.intentions.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:bcf4a785-1586-4082-a483-f17b53599959(NewLanguage.structure)" />
-    <file name="toggleCheckByContract_Intention.java" />
   </source>
 </dependencies>
 
