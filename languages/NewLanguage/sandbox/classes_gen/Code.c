@@ -12,8 +12,10 @@ int32_t  main(int32_t argc, char *(argv[]))
 {
   char c;
   struct _IO_FILE *file;
-  file = fopen("test.txt", "r");
-  assert("test.txt" != 0);assert(strcmp("r","r") == 0 || strcmp("r","w") == 0 || strcmp("r","r+") == 0);
+  assert("test.txt" != 0);assert(strcmp("m","r") == 0 || strcmp("m","w") == 0 || strcmp("m","r+") == 0);
+  file = fopen("test.txt", "m");
+  assert("asb" != 0);assert(strcmp("w","r") == 0 || strcmp("w","w") == 0 || strcmp("w","r+") == 0);
+  fopen("asb", "w");
   printf("%s", "\n--------DONE------\n");
   return 0;
 }

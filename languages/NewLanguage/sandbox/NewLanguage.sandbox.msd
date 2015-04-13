@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">~_PreferencesModule#ContractLanguage.__spreferences.PlatformTemplates(ContractLanguage.__spreferences.PlatformTemplates)</dependency>
+    <dependency reexport="false">2f405c46-a1cf-4977-b874-4b1485a8189e(PluginTest)</dependency>
     <dependency reexport="false">6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</dependency>
   </dependencies>
   <usedLanguages>

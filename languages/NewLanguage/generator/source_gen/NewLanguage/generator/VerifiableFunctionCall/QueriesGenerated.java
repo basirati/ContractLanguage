@@ -11,6 +11,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
+import jetbrains.mps.generator.template.MappingScriptContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 @Generated
 public class QueriesGenerated {
@@ -44,5 +47,27 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_4686410186993737849(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "right", true);
+  }
+
+  public static void mappingScript_CodeBlock_2553748439778775848(final MappingScriptContext _context) {
+    for (SNode im : ListSequence.fromList(SModelOperations.getNodes(_context.getModel(), "com.mbeddr.core.modules.structure.ImplementationModule"))) {
+      for (SNode fcall : ListSequence.fromList(SNodeOperations.getDescendants(im, "com.mbeddr.core.modules.structure.FunctionCall", false, new String[]{}))) {
+        SNode st = SNodeOperations.getAncestor(fcall, "com.mbeddr.core.statements.structure.Statement", false, false);
+        if ((st != null)) {
+          for (SNode ch : ListSequence.fromList(SLinkOperations.getTargets(im, "imports", true))) {
+            for (SNode fcontract : ListSequence.fromList(SNodeOperations.getDescendants(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), ch, "virtual_chunk_7139820346881814627", new Object[]{}), "NewLanguage.structure.FunctionContract", false, new String[]{}))) {
+              if (SLinkOperations.getTarget(SLinkOperations.getTarget(fcontract, "function", true), "function", false) == SLinkOperations.getTarget(fcall, "function", false)) {
+                SNode cf = SConceptOperations.createNewNode("NewLanguage.structure.CheckFunction", null);
+                SLinkOperations.setTarget(cf, "fcontract", fcontract, false);
+                SLinkOperations.setTarget(cf, "fcall", fcall, false);
+                SNodeOperations.insertPrevSiblingChild(st, cf);
+              }
+            }
+          }
+        }
+      }
+    }
+
+
   }
 }
